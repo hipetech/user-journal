@@ -1,5 +1,6 @@
 import React from "react";
-import {AppBar, Button, Toolbar, Typography} from "@mui/material";
+import {AppBar, Toolbar, Typography} from "@mui/material";
+import HeaderButtons from "@/components/headerButtons";
 
 const Header = () => {
   return (
@@ -8,7 +9,7 @@ const Header = () => {
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
           Журнал користувачів
         </Typography>
-        <Button color="inherit">Додати користувача</Button>
+        <HeaderButtons />
       </Toolbar>
     </AppBar>
   );
