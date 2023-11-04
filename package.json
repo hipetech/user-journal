@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "node_modules/.bin/next dev",
+    "dev-turbo": "node_modules/.bin/next dev --turbo",
     "build": "node_modules/.bin/next build",
     "start": "node_modules/.bin/next start",
     "lint": "node_modules/.bin/next lint"
@@ -13,6 +14,7 @@
     "@emotion/styled": "^11.11.0",
     "@fontsource/roboto": "^5.0.8",
     "@mui/material": "^5.14.16",
+    "eventemitter3": "^5.0.1",
     "next": "14.0.1",
     "react": "^18",
     "react-dom": "^18"
@@ -24,8 +26,8 @@
     "@typescript-eslint/eslint-plugin": "^6.9.1",
     "@typescript-eslint/parser": "^6.9.1",
     "autoprefixer": "^10.0.1",
-    "eslint": "^8",
     "eslint-config-next": "14.0.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
     "typescript": "^5"
