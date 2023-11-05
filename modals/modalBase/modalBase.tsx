@@ -1,9 +1,10 @@
 "use client";
 
-import React, { ReactNode, useCallback, useEffect, useState } from "react";
 import { Box, Modal } from "@mui/material";
-import { ModalKeys } from "@/modals/modalKeys";
+import React, { ReactNode, useCallback, useEffect, useState } from "react";
+
 import { modalEmitter } from "@/modals/modalBase/modalEmitter";
+import { ModalKeys } from "@/modals/modalKeys";
 
 interface ModalBaseProps {
   children: ReactNode | ReactNode[]
@@ -15,10 +16,9 @@ const style = {
   top: "50%",
   left: "50%",
   transform: "translate(-50%, -50%)",
-  width: 400,
-  bgcolor: "background.paper",
+  bgcolor: "white",
   boxShadow: 24,
-  p: 4,
+  borderRadius: "4px",
 };
 
 const ModalBase: React.FC<ModalBaseProps> = ({children, modalKey}) => {
@@ -27,7 +27,7 @@ const ModalBase: React.FC<ModalBaseProps> = ({children, modalKey}) => {
   const closeModal = useCallback(() => setIsOpened(false), []);
   
   useEffect(() => {
-    modalEmitter.on(modalKey, () => setIsOpened(true));
+    modalEmitter.on(modalKey, () => setIsOpened(value => !value));
     return () => {
       modalEmitter.off(modalKey);
     };

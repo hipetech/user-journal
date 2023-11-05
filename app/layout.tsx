@@ -1,8 +1,11 @@
+import "../styles/globals.css";
+
+import { CssBaseline } from "@mui/material";
 import type { Metadata } from "next";
 import {Roboto} from "next/font/google";
-import "../styles/globals.css";
 import React from "react";
-import ModalProvider from "@/modals/modalProvider";
+
+import ModalRoot from "@/modals/modalRoot";
 
 const roboto = Roboto({ weight: "400", subsets: ["latin"] });
 
@@ -19,7 +22,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={roboto.className}>
         {children}
-        <ModalProvider />
+        <ModalRoot />
+        <CssBaseline />
       </body>
     </html>
   );

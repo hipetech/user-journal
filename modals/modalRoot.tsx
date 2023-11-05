@@ -1,7 +1,8 @@
 import React from "react";
+
 import LogInModal from "@/modals/logInModal";
 
-const ModalProvider = () => {
+const ModalRoot = () => {
   return (
     <>
       <LogInModal />
@@ -9,4 +10,4 @@ const ModalProvider = () => {
   );
 };
 
-export default ModalProvider;
+export default ModalRoot;
