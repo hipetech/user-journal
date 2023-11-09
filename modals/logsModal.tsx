@@ -34,7 +34,8 @@ const LogsModal = () => {
         <ModalTitleRow title={"Логи"} modalId={ModalKeys.LOGS} />
         <Box sx={{
           width: 800,
-          height: 500
+          height: 500,
+          overflow: "auto"
         }}>
           {isLoading ? <Loader /> : <LogsTable logs={logs} />}
         </Box>

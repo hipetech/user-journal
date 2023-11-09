@@ -1,4 +1,4 @@
-import { Box, Table, TableCell, TableContainer, TableRow } from "@mui/material";
+import { Table, TableCell, TableContainer, TableHead, TableRow } from "@mui/material";
 import TableBody from "@mui/material/TableBody";
 import React, { useMemo } from "react";
 
@@ -10,7 +10,7 @@ interface LogsTableProps {
 }
 
 function renderLogs(logs: Log[]) {
-  return logs.map((log, index) => {
+  return [...logs].reverse().map((log, index) => {
     
     const date = new Date(log.date);
     
@@ -43,19 +43,35 @@ const LogsTable: React.FC<LogsTableProps> = ({logs}) => {
   const logItems = useMemo(() => renderLogs(logs), [logs]);
   
   return (
-    <Box sx={{
-      width: "100%",
-      height: "100%",
-      overflow: "auto"
+    <TableContainer sx={{
+      height: "inherit"
     }}>
-      <TableContainer>
-        <Table>
-          <TableBody>
-            {logItems}
-          </TableBody>
-        </Table>
-      </TableContainer>
-    </Box>
+      <Table stickyHeader={true}>
+        <TableHead>
+          <TableCell>
+            #
+          </TableCell>
+          <TableCell>
+            Час та дата
+          </TableCell>
+          <TableCell>
+            Тип дії
+          </TableCell>
+          <TableCell>
+            Логін
+          </TableCell>
+          <TableCell>
+            Імʼя
+          </TableCell>
+          <TableCell>
+            Прізвище
+          </TableCell>
+        </TableHead>
+        <TableBody>
+          {logItems}
+        </TableBody>
+      </Table>
+    </TableContainer>
   );
 };
 
