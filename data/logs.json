@@ -1,0 +1,184 @@
+{
+  "logs": [
+    {
+      "id": "c3c03645-342c-438d-a415-752b3bb8bcbc",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "-",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-09T16:53:37.888Z",
+      "type": "Log in"
+    },
+    {
+      "id": "a031f0fa-ff1c-41e3-a27c-f471f7bd9afd",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "-",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-09T16:54:23.242Z",
+      "type": "Log in"
+    },
+    {
+      "id": "050f10c1-3a16-40d9-a747-c890ce60f7fd",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "-",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-09T17:27:45.663Z",
+      "type": "Log in"
+    },
+    {
+      "id": "5ee6081c-5c6e-4086-8c69-b1edfd7cf92c",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "-",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-09T17:28:53.244Z",
+      "type": "Log in"
+    },
+    {
+      "id": "2ee502d6-f8a1-4502-b001-ab7c47dbac9d",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "-",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-09T17:30:14.443Z",
+      "type": "Log in"
+    },
+    {
+      "id": "2b55b3c2-aaf6-4688-95cd-8123b06cac18",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "-",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-09T17:31:16.164Z",
+      "type": "Log in"
+    },
+    {
+      "id": "0581b828-d325-488c-b291-88a367cfaf4f",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "-",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-09T17:34:08.558Z",
+      "type": "Log in"
+    },
+    {
+      "id": "d1474c07-f7ae-4fa6-9c00-f1d9d4110d2c",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "-",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-09T17:37:15.523Z",
+      "type": "Log in"
+    },
+    {
+      "id": "296b0a9a-064a-4fa3-a53d-a36ce128bdda",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "-",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-09T17:37:35.472Z",
+      "type": "Log in"
+    },
+    {
+      "id": "ae2557d1-0f23-4663-a1be-d3ec65d0ff46",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "-",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-09T17:37:37.941Z",
+      "type": "Log out"
+    }
+  ]
+}

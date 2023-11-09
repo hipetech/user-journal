@@ -1,14 +1,16 @@
 "use client";
 
 import { Box, Modal } from "@mui/material";
-import React, { ReactNode, useCallback, useEffect, useState } from "react";
+import React, { ReactNode, useCallback, useEffect } from "react";
 
-import { modalEmitter } from "@/modals/modalBase/modalEmitter";
+import { modalEmitter } from "@/modals/modalEmitter";
 import { ModalKeys } from "@/modals/modalKeys";
 
 interface ModalBaseProps {
   children: ReactNode | ReactNode[]
   modalKey: ModalKeys;
+  isOpen: boolean;
+  setIsOpen:  React.Dispatch<React.SetStateAction<boolean>>
 }
 
 const style = {
@@ -21,13 +23,12 @@ const style = {
   borderRadius: "4px",
 };
 
-const ModalBase: React.FC<ModalBaseProps> = ({children, modalKey}) => {
-  const [isOpened, setIsOpened] = useState<boolean>(false);
+const ModalBase: React.FC<ModalBaseProps> = ({children, modalKey, isOpen, setIsOpen}) => {
   
-  const closeModal = useCallback(() => setIsOpened(false), []);
+  const closeModal = useCallback(() => setIsOpen(false), [setIsOpen]);
   
   useEffect(() => {
-    modalEmitter.on(modalKey, () => setIsOpened(value => !value));
+    modalEmitter.on(modalKey, () => setIsOpen(value => !value));
     return () => {
       modalEmitter.off(modalKey);
     };
@@ -35,7 +36,7 @@ const ModalBase: React.FC<ModalBaseProps> = ({children, modalKey}) => {
   }, []);
   
   return (
-    <Modal open={isOpened} onClose={closeModal}>
+    <Modal open={isOpen} onClose={closeModal}>
       <Box sx={style}>
         {children}
       </Box>

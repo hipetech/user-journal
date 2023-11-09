@@ -1,4 +1,4 @@
-import { modalEmitter } from "@/modals/modalBase/modalEmitter";
+import { modalEmitter } from "@/modals/modalEmitter";
 import { ModalKeys } from "@/modals/modalKeys";
 
 export function toggleModal(modalKey: ModalKeys) {

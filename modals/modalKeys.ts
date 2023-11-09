@@ -1,3 +1,5 @@
 export enum ModalKeys {
-  LOGIN = "LOGIN"
+  LOGIN = "LOGIN",
+  LOGOUT = "LOGOUT",
+  LOGS = "LOGS"
 }

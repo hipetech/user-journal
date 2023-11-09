@@ -1,3 +1,13 @@
 {
-  "hello": "hello"
+  "users": [
+    {
+      "id": "admin",
+      "firstName": "admin",
+      "lastName": "admin",
+      "permissions": ["W", "R", "E"],
+      "login": "admin",
+      "email": "-",
+      "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+    }
+  ]
 }

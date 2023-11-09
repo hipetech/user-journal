@@ -12,8 +12,16 @@ interface ModalTitleRowProps {
 
 const ModalTitleRow: React.FC<ModalTitleRowProps> = ({title, modalId}) => {
   return (
-    <Box sx={{width: "100%", display: "flex", flexDirection: "row", justifyContent: "space-between"}}>
-      <Typography component="h1" variant="h5">
+    <Box sx={{
+      width: "100%",
+      display: "flex",
+      justifyContent: "space-between",
+      alignItems: "center",
+      padding: 2,
+      borderBottom: 1,
+      borderColor: "grey.500"
+    }}>
+      <Typography variant={"h6"}>
         {title}
       </Typography>
       <IconButton size={"small"} onClick={() => toggleModal(modalId)}>
