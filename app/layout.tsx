@@ -6,6 +6,7 @@ import {Roboto} from "next/font/google";
 import React from "react";
 
 import ModalRoot from "@/modals/modalRoot";
+import AppSnackbar from "@/snackbars/appSnackbar";
 
 const roboto = Roboto({ weight: "400", subsets: ["latin"] });
 
@@ -23,6 +24,7 @@ export default function RootLayout({
       <body className={roboto.className}>
         {children}
         <ModalRoot />
+        <AppSnackbar />
         <CssBaseline />
       </body>
     </html>

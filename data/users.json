@@ -6,7 +6,7 @@
       "lastName": "admin",
       "permissions": ["W", "R", "E"],
       "login": "admin",
-      "email": "-",
+      "email": "admin@mail.com",
       "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
     }
   ]

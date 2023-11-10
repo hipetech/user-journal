@@ -20,7 +20,7 @@ function renderLogs(logs: Log[]) {
           {index + 1}
         </TableCell>
         <TableCell>
-          {`${date.getHours()}:${date.getMinutes()} ${formatDateNumber(date.getDate())}.${formatDateNumber(date.getMonth())}.${date.getFullYear()}`}
+          {`${formatDateNumber(date.getHours())}:${formatDateNumber(date.getMinutes())} ${formatDateNumber(date.getDate())}.${formatDateNumber(date.getMonth())}.${date.getFullYear()}`}
         </TableCell>
         <TableCell>
           {log.type}

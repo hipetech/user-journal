@@ -1,14 +1,18 @@
 "use client";
 
+import RemoveRedEyeIcon from "@mui/icons-material/RemoveRedEye";
 import { Box } from "@mui/material";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 
+import InfoBox from "@/components/infoBox";
 import Loader from "@/components/loader";
 import LogsTable from "@/components/logsTable";
 import ModalTitleRow from "@/components/modalTitleRow";
+import usePermissions from "@/hooks/usePermissions";
 import ModalBase from "@/modals/modalBase";
 import { ModalKeys } from "@/modals/modalKeys";
 import { Log } from "@/types/log";
+import { Permission } from "@/types/permission";
 
 const LogsModal = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
@@ -17,8 +21,13 @@ const LogsModal = () => {
   
   const [isLoading, setIsLoading] = useState<boolean>(true);
   
+  const checkPermissions = usePermissions();
+  
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const canView = useMemo(() => checkPermissions(Permission.READ), [isOpen]);
+  
   useEffect(() => {
-    if (isOpen) {
+    if (isOpen && canView) {
       fetch(`${process.env.NEXT_PUBLIC_API_URL}/logs`)
         .then((res) => res.json())
         .then((res: {logs: Log[]}) => {
@@ -26,6 +35,7 @@ const LogsModal = () => {
           setIsLoading(false);
         });
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isOpen]);
   
   return (
@@ -37,7 +47,11 @@ const LogsModal = () => {
           height: 500,
           overflow: "auto"
         }}>
-          {isLoading ? <Loader /> : <LogsTable logs={logs} />}
+          {
+            canView
+              ? isLoading ? <Loader /> : <LogsTable logs={logs} />
+              : <InfoBox message={"Ви не маєте прав для перегляду"} icon={<RemoveRedEyeIcon color={"primary"} sx={{width: 70, height: 70}} />} />
+          }
         </Box>
       </Box>
     </ModalBase>

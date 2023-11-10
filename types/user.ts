@@ -1,3 +1,5 @@
+import { Permissions } from "@/types/permissions";
+
 export interface User {
   id: string;
   firstName: string;

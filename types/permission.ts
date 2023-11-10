@@ -1,1 +1,5 @@
-export type Permission = "W" | "R" | "E";
+export enum Permission {
+  WRITE = "W",
+  READ = "R",
+  EXECUTE = "E"
+}

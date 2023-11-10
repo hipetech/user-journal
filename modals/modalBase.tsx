@@ -3,7 +3,7 @@
 import { Box, Modal } from "@mui/material";
 import React, { ReactNode, useCallback, useEffect } from "react";
 
-import { modalEmitter } from "@/modals/modalEmitter";
+import { AppEmmiter } from "@/helpers/emmiter";
 import { ModalKeys } from "@/modals/modalKeys";
 
 interface ModalBaseProps {
@@ -28,9 +28,9 @@ const ModalBase: React.FC<ModalBaseProps> = ({children, modalKey, isOpen, setIsO
   const closeModal = useCallback(() => setIsOpen(false), [setIsOpen]);
   
   useEffect(() => {
-    modalEmitter.on(modalKey, () => setIsOpen(value => !value));
+    AppEmmiter.on(modalKey, () => setIsOpen(value => !value));
     return () => {
-      modalEmitter.off(modalKey);
+      AppEmmiter.off(modalKey);
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
