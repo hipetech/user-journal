@@ -4,6 +4,7 @@ declare namespace NodeJS {
     
     readonly USERS: string;
     readonly LOGS: string;
+    readonly CREDS: string;
   }
   
 }

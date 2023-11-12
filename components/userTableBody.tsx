@@ -1,5 +1,5 @@
 import DeleteOutlineIcon from "@mui/icons-material/DeleteOutline";
-import { Button, IconButton, TableCell, TableRow } from "@mui/material";
+import { IconButton, TableCell, TableRow } from "@mui/material";
 import TableBody from "@mui/material/TableBody";
 import React, { useMemo } from "react";
 
@@ -24,9 +24,6 @@ function renderRows(users: User[]) {
             );
           })
         }
-        <TableCell>
-          <Button color="primary">Редагувати</Button>
-        </TableCell>
         <TableCell>
           <IconButton size={"small"} onClick={() => console.log("hello world")}>
             <DeleteOutlineIcon color={"disabled"}/>

@@ -20,7 +20,6 @@ const LogInModal = () => {
   const [loginError, setLoginError] = useState<boolean>(false);
   const [passwordError, setPasswordError] = useState<boolean>(false);
   const [resError, setResError] = useState<boolean>(false);
-  
   const {setUser} = useUserStore();
   
   const submit = useCallback(async () => {

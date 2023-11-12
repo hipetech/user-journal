@@ -15,6 +15,7 @@ export async function POST(request: Request) {
   
   if (loginDTO.login && loginDTO.password) {
     const user = users.find((user: User) => user.login === loginDTO.login);
+    
     if (user) {
       const isValid = await bcrypt.compare(loginDTO.password, user.password);
       if (isValid) {

@@ -4,10 +4,27 @@
       "id": "admin",
       "firstName": "admin",
       "lastName": "admin",
-      "permissions": ["W", "R", "E"],
+      "permissions": [
+        "W",
+        "R",
+        "E"
+      ],
       "login": "admin",
       "email": "admin@mail.com",
       "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+    },
+    {
+      "id": "b4362fc2-38a1-4c6d-94f5-00e6c34eaaa7",
+      "firstName": "Lilly",
+      "lastName": "Mullins",
+      "permissions": [
+        "W",
+        "R",
+        "E"
+      ],
+      "login": "vigorousdeer777",
+      "email": "minpujsod@fordik.gf",
+      "password": "$2b$12$hjOQqqSm1DeKa3vxz7ExQechZMG0sOAv.S/L.bFYccsJfOlhG2sx."
     }
   ]
 }

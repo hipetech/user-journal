@@ -21,6 +21,8 @@ const AppSnackbar = () => {
     switch (activeSnackbar) {
     case SnackbarKeys.NO_PERMISSIONS:
       return <Alert onClose={handleClose} severity="error">Ви не маєте прав для цієї дії</Alert>;
+    case SnackbarKeys.ADD_USER:
+      return <Alert onClose={handleClose} severity={"success"}>Ви додали нового кристувача</Alert>;
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [activeSnackbar]);

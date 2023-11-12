@@ -3,16 +3,18 @@
 import LoginIcon from "@mui/icons-material/Login";
 import RemoveRedEyeIcon from "@mui/icons-material/RemoveRedEye";
 import { Box, Button, Table, TableContainer, TablePagination } from "@mui/material";
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useCallback, useEffect, useMemo, useState } from "react";
 
 import InfoBox from "@/components/infoBox";
 import Loader from "@/components/loader";
 import UserTableBody from "@/components/userTableBody";
 import UserTableHeader from "@/components/userTableHeader";
+import { AppEmmiter } from "@/helpers/emmiter";
 import { toggleModal } from "@/helpers/toggleModal";
 import useLogIn from "@/hooks/useLogIn";
 import usePermissions from "@/hooks/usePermissions";
 import { ModalKeys } from "@/modals/modalKeys";
+import { AppEvents } from "@/types/appEvents";
 import { Permission } from "@/types/permission";
 import { User } from "@/types/user";
 
@@ -31,6 +33,15 @@ const UserTable = () => {
     setPage(newPage);
   };
   
+  const fetchData = useCallback(() => {
+    fetch(`${process.env.NEXT_PUBLIC_API_URL}/users`)
+      .then((res) => res.json())
+      .then((data: {users: User[]}) => {
+        setUsers(data.users);
+        setIsLoading(false);
+      });
+  }, []);
+  
   const content = useMemo(() => {
     if (!isLoggedIn) return <InfoBox message={"Увійдіть до акаунту"} icon={<LoginIcon color={"primary"} sx={{width: 70, height: 70}} />} />;
     else if (!canView) return <InfoBox message={"Ви не маєте прав для перегляду"} icon={<RemoveRedEyeIcon color={"primary"} sx={{width: 70, height: 70}} />} />;
@@ -45,20 +56,20 @@ const UserTable = () => {
         </TableContainer>
       );
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [canView, isLoading, isLoggedIn]);
+  }, [canView, isLoading, isLoggedIn, users]);
   
   useEffect(() => {
-    if (isLoggedIn && canView) {
-      fetch(`${process.env.NEXT_PUBLIC_API_URL}/users`)
-        .then((res) => res.json())
-        .then((data: {users: User[]}) => {
-          setUsers(data.users);
-          setIsLoading(false);
-        });
-    }
+    if (isLoggedIn && canView) fetchData();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isLoggedIn]);
+  
+  useEffect(() => {
+    AppEmmiter.on(AppEvents.REFETCH_DATA,  fetchData);
+    return () => {
+      AppEmmiter.off(AppEvents.REFETCH_DATA);
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
   
   return (
     <Box sx={{

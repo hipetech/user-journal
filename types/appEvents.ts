@@ -1,7 +1,8 @@
 import { ModalKeys } from "@/modals/modalKeys";
 
 enum Events {
-  SNACKBAR = "SNACKBAR"
+  SNACKBAR = "SNACKBAR",
+  REFETCH_DATA = "REFETCH_DATA"
 }
 
 export const AppEvents =  {

@@ -485,6 +485,1014 @@
       },
       "date": "2023-11-10T15:24:47.892Z",
       "type": "Log in"
+    },
+    {
+      "id": "e556f4e9-1ace-4ce7-ad27-d320c74d854d",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T22:13:49.362Z",
+      "type": "Log in"
+    },
+    {
+      "id": "fe2e0182-dd4f-453e-bca1-750f67fc7850",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T22:13:55.144Z",
+      "type": "User add"
+    },
+    {
+      "id": "4a57cadc-8387-49cd-9f26-12d6a4c6b4e6",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T22:15:56.023Z",
+      "type": "User add"
+    },
+    {
+      "id": "74bed8a1-16a5-4505-853a-9d66bcd073bf",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T22:16:32.595Z",
+      "type": "Log in"
+    },
+    {
+      "id": "93c20eec-9ee2-4802-ba42-a5c12e390d31",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T22:17:09.441Z",
+      "type": "User add"
+    },
+    {
+      "id": "84f75d47-fbda-48c5-b56c-a548110442c6",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T22:17:33.562Z",
+      "type": "User add"
+    },
+    {
+      "id": "64ef8ac0-08ac-4e35-9a50-33f3218bf9e4",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T22:24:09.066Z",
+      "type": "Log in"
+    },
+    {
+      "id": "bde6a5a2-b671-4da6-ab37-9b617a7f22f5",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T22:24:19.076Z",
+      "type": "User add"
+    },
+    {
+      "id": "4032551c-252f-451d-b32a-1e91b45211d2",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T22:24:26.250Z",
+      "type": "User add"
+    },
+    {
+      "id": "e93d20ff-d1d0-48de-bdcb-14de65d31aa9",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T22:25:23.439Z",
+      "type": "Log in"
+    },
+    {
+      "id": "d95a313b-6c2c-45cc-b0e5-101daed42626",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T22:25:31.077Z",
+      "type": "User add"
+    },
+    {
+      "id": "153f60a3-413f-47aa-b276-c4dfc2cb2f0d",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T22:25:35.484Z",
+      "type": "User add"
+    },
+    {
+      "id": "e7063526-b6dc-408c-8b35-da1290dcff47",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T22:27:03.596Z",
+      "type": "Log in"
+    },
+    {
+      "id": "7820fa7b-52d5-4e5c-bdb3-5f9d0fb6c4c0",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T22:27:09.508Z",
+      "type": "User add"
+    },
+    {
+      "id": "de634598-f432-48f4-846c-226bd6fd766c",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T22:27:15.861Z",
+      "type": "User add"
+    },
+    {
+      "id": "9f961941-3406-4d13-a7ab-56c48594c470",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T22:29:03.964Z",
+      "type": "User add"
+    },
+    {
+      "id": "1e298b82-51d3-42f9-8caf-fe761a856b89",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T22:29:56.282Z",
+      "type": "Log in"
+    },
+    {
+      "id": "c93af74e-51b2-4f32-a60c-bb05068fab17",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T22:30:38.133Z",
+      "type": "User add"
+    },
+    {
+      "id": "e0b9ccf0-5f8a-429b-b697-bc91efbec4a7",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T22:30:43.869Z",
+      "type": "User add"
+    },
+    {
+      "id": "2b22533b-3406-4662-91f7-80b2bdcaede3",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T22:30:56.353Z",
+      "type": "User add"
+    },
+    {
+      "id": "7799c239-eeb0-4e8e-83f9-b6088e18b50a",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T22:31:12.394Z",
+      "type": "User add"
+    },
+    {
+      "id": "515797b3-40c3-42df-b3dc-18648b8d216c",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T22:31:58.622Z",
+      "type": "User add"
+    },
+    {
+      "id": "8dbacf0c-0748-4ad7-a807-ea41b69e9e24",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T22:32:08.294Z",
+      "type": "User add"
+    },
+    {
+      "id": "744f365a-31f2-4342-88d3-2aa00cc69798",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T22:32:22.546Z",
+      "type": "User add"
+    },
+    {
+      "id": "5e3541d2-d1f8-413d-896e-b7af11c222d6",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T22:34:19.516Z",
+      "type": "Log in"
+    },
+    {
+      "id": "68177287-5cdb-456c-a976-bc3a3ac2f5f7",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T22:34:25.332Z",
+      "type": "User add"
+    },
+    {
+      "id": "a4f9e8d0-eba4-406d-9022-322a5fbaa2f5",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T22:35:09.347Z",
+      "type": "User add"
+    },
+    {
+      "id": "d554e171-5c6c-4d95-862a-4120eb4140be",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T22:37:29.763Z",
+      "type": "User add"
+    },
+    {
+      "id": "3f9cc508-76a8-482c-949c-5a92c218484d",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T22:37:38.533Z",
+      "type": "User add"
+    },
+    {
+      "id": "d41ef7a2-5831-4bb2-94d6-3767d1c5d800",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T22:37:52.477Z",
+      "type": "User add"
+    },
+    {
+      "id": "61eff1c0-ba7e-4943-bf07-fc061795cc8b",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T22:40:33.414Z",
+      "type": "User add"
+    },
+    {
+      "id": "e06e5508-89db-4823-aad8-51ab497e210b",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T22:48:18.243Z",
+      "type": "Log in"
+    },
+    {
+      "id": "ef18bf24-bfc6-437f-97e3-200e43779f0c",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T22:48:42.129Z",
+      "type": "User add"
+    },
+    {
+      "id": "f33f8b33-295a-4182-b354-38741f6de9c5",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T22:48:55.258Z",
+      "type": "User add"
+    },
+    {
+      "id": "329e2b5f-09ce-426c-944b-982cc0e98a43",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T22:49:13.508Z",
+      "type": "User add"
+    },
+    {
+      "id": "6cf6bda9-134d-4049-8a83-646d6078efd9",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T22:54:03.821Z",
+      "type": "Log in"
+    },
+    {
+      "id": "438b2694-ba5d-40ba-93e7-6e6e25431a6c",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T22:57:37.155Z",
+      "type": "Log in"
+    },
+    {
+      "id": "a0db0c01-65e1-462a-bb98-88ef18437b66",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T23:01:33.026Z",
+      "type": "User add"
+    },
+    {
+      "id": "c4c34934-fd22-4c26-875a-d184acdaca73",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T23:03:11.098Z",
+      "type": "User add"
+    },
+    {
+      "id": "951d208c-7e17-4c0d-8cd6-3ad35e70994c",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T23:04:38.694Z",
+      "type": "User add"
+    },
+    {
+      "id": "b5b599c7-40b8-45b5-b526-e5e826860339",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T23:05:08.698Z",
+      "type": "User add"
+    },
+    {
+      "id": "e0012a92-f0f5-411a-9450-3e0fac4924bb",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T23:05:11.495Z",
+      "type": "User add"
+    },
+    {
+      "id": "193cf113-deb3-4620-9304-a2bc1f50fb7d",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T23:05:16.183Z",
+      "type": "User add"
+    },
+    {
+      "id": "54af22f8-7bf3-446f-bb60-8a05b8b5f519",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T23:05:18.553Z",
+      "type": "User add"
+    },
+    {
+      "id": "2d82de94-c115-45ad-8b21-91c4b3993f2b",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T23:05:24.151Z",
+      "type": "User add"
+    },
+    {
+      "id": "400080f0-dbb3-4380-826e-44c574d72b92",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T23:07:12.914Z",
+      "type": "User add"
+    },
+    {
+      "id": "b4910c09-3c13-4841-96aa-21734a821504",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T23:07:16.427Z",
+      "type": "User add"
+    },
+    {
+      "id": "24f73e22-b718-475a-8c7d-523801f79c4c",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-11T23:09:50.225Z",
+      "type": "User add"
+    },
+    {
+      "id": "04e42f72-7b2c-4785-b72b-58425a48535b",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-12T00:03:10.485Z",
+      "type": "Log in"
+    },
+    {
+      "id": "dd0f5b17-0197-4ca4-8d2f-b8f85ee60393",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-12T00:03:17.974Z",
+      "type": "User add"
+    },
+    {
+      "id": "dbe8f28c-c2a3-47f5-9f39-db7800c44bfd",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-12T00:03:21.533Z",
+      "type": "Log out"
+    },
+    {
+      "id": "0da49653-0fc9-4ed3-8e9d-fc3a33b0a9e9",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-12T00:08:26.939Z",
+      "type": "Log in"
+    },
+    {
+      "id": "0006074f-bc85-4295-8507-8fa862cfd55c",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-12T00:08:35.227Z",
+      "type": "User add"
+    },
+    {
+      "id": "4703d687-d28a-4072-8afa-7a566eeba95d",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-12T00:08:39.805Z",
+      "type": "Log out"
+    },
+    {
+      "id": "45847a87-8890-4afd-9a3f-6072ba277213",
+      "user": {
+        "id": "b4362fc2-38a1-4c6d-94f5-00e6c34eaaa7",
+        "firstName": "Lilly",
+        "lastName": "Mullins",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "vigorousdeer777",
+        "email": "minpujsod@fordik.gf",
+        "password": "$2b$12$hjOQqqSm1DeKa3vxz7ExQechZMG0sOAv.S/L.bFYccsJfOlhG2sx."
+      },
+      "date": "2023-11-12T00:09:02.606Z",
+      "type": "Log in"
+    },
+    {
+      "id": "2b72857e-1001-484d-b972-a25db16b4e8f",
+      "user": {
+        "id": "b4362fc2-38a1-4c6d-94f5-00e6c34eaaa7",
+        "firstName": "Lilly",
+        "lastName": "Mullins",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "vigorousdeer777",
+        "email": "minpujsod@fordik.gf",
+        "password": "$2b$12$hjOQqqSm1DeKa3vxz7ExQechZMG0sOAv.S/L.bFYccsJfOlhG2sx."
+      },
+      "date": "2023-11-12T00:09:07.588Z",
+      "type": "Log out"
     }
   ]
 }
