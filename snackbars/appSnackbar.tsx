@@ -23,6 +23,8 @@ const AppSnackbar = () => {
       return <Alert onClose={handleClose} severity="error">Ви не маєте прав для цієї дії</Alert>;
     case SnackbarKeys.ADD_USER:
       return <Alert onClose={handleClose} severity={"success"}>Ви додали нового кристувача</Alert>;
+    case SnackbarKeys.REMOVE_USER:
+      return <Alert onClose={handleClose} severity={"warning"}>Ви видалили користувача</Alert>;
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [activeSnackbar]);

@@ -18,6 +18,7 @@ import { AppEvents } from "@/types/appEvents";
 import { Permission } from "@/types/permission";
 import { User } from "@/types/user";
 
+const rowsPerPage = 8;
 const UserTable = () => {
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [users, setUsers] = useState<User[]>([]);
@@ -42,6 +43,9 @@ const UserTable = () => {
       });
   }, []);
   
+  
+  const usersPerPage = useMemo(() => users.slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage), [page, users]);
+  
   const content = useMemo(() => {
     if (!isLoggedIn) return <InfoBox message={"Увійдіть до акаунту"} icon={<LoginIcon color={"primary"} sx={{width: 70, height: 70}} />} />;
     else if (!canView) return <InfoBox message={"Ви не маєте прав для перегляду"} icon={<RemoveRedEyeIcon color={"primary"} sx={{width: 70, height: 70}} />} />;
@@ -51,12 +55,12 @@ const UserTable = () => {
         <TableContainer>
           <Table>
             <UserTableHeader />
-            <UserTableBody users={users} />
+            <UserTableBody users={usersPerPage} />
           </Table>
         </TableContainer>
       );
     }
-  }, [canView, isLoading, isLoggedIn, users]);
+  }, [canView, isLoading, isLoggedIn, usersPerPage]);
   
   useEffect(() => {
     if (isLoggedIn && canView) fetchData();
@@ -93,9 +97,9 @@ const UserTable = () => {
         </Button>
         <TablePagination
           component={"div"}
-          rowsPerPageOptions={[]}
-          count={Math.ceil(users.length / 20)}
-          rowsPerPage={5}
+          rowsPerPageOptions={[5]}
+          count={users.length}
+          rowsPerPage={rowsPerPage}
           page={page}
           onPageChange={handleChangePage}
         />

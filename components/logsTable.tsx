@@ -32,7 +32,7 @@ function renderLogs(logs: Log[]) {
           {log.user.firstName}
         </TableCell>
         <TableCell>
-          {log.user.firstName}
+          {log.user.lastName}
         </TableCell>
       </TableRow>
     );
@@ -48,24 +48,26 @@ const LogsTable: React.FC<LogsTableProps> = ({logs}) => {
     }}>
       <Table stickyHeader={true}>
         <TableHead>
-          <TableCell>
-            #
-          </TableCell>
-          <TableCell>
-            Час та дата
-          </TableCell>
-          <TableCell>
-            Тип дії
-          </TableCell>
-          <TableCell>
-            Логін
-          </TableCell>
-          <TableCell>
-            Імʼя
-          </TableCell>
-          <TableCell>
-            Прізвище
-          </TableCell>
+          <TableRow>
+            <TableCell>
+              #
+            </TableCell>
+            <TableCell>
+              Час та дата
+            </TableCell>
+            <TableCell>
+              Тип дії
+            </TableCell>
+            <TableCell>
+              Логін
+            </TableCell>
+            <TableCell>
+              Імʼя
+            </TableCell>
+            <TableCell>
+              Прізвище
+            </TableCell>
+          </TableRow>
         </TableHead>
         <TableBody>
           {logItems}

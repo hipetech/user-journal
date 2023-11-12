@@ -49,9 +49,6 @@ const UserTableHeader = () => {
   return (
     <TableHead>
       <TableRow>
-        <TableCell>
-          #
-        </TableCell>
         {tableColumns}
         <TableCell />
         <TableCell />

@@ -14,17 +14,147 @@
       "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
     },
     {
-      "id": "b4362fc2-38a1-4c6d-94f5-00e6c34eaaa7",
-      "firstName": "Lilly",
-      "lastName": "Mullins",
+      "id": "8b3515e7-e5dd-480c-bbef-a19570e90e7e",
+      "firstName": "Billy",
+      "lastName": "Horton",
       "permissions": [
         "W",
         "R",
         "E"
       ],
-      "login": "vigorousdeer777",
-      "email": "minpujsod@fordik.gf",
-      "password": "$2b$12$hjOQqqSm1DeKa3vxz7ExQechZMG0sOAv.S/L.bFYccsJfOlhG2sx."
+      "login": "fiercetortoise39",
+      "email": "gis@iw.wiki",
+      "password": "$2b$12$he1Qir3MF.h/5Y7gelKIFerzVe0TT3WVmKQNteJqCwTF/LqvZNjPm"
+    },
+    {
+      "id": "a4c21611-2665-4bb6-a6a6-4ece2dee1eee",
+      "firstName": "Kate",
+      "lastName": "Barnes",
+      "permissions": [
+        "-",
+        "R",
+        "E"
+      ],
+      "login": "fiercemeerkat555",
+      "email": "ra@vin.prod",
+      "password": "$2b$12$PJxnRYXiqxwlpE75gceTruZkXpz0bGbDel77duVK3JvD863.1AFFS"
+    },
+    {
+      "id": "5351ca02-02ea-4765-8349-e0dfb9e132b1",
+      "firstName": "Belle",
+      "lastName": "Roberson",
+      "permissions": [
+        "-",
+        "R",
+        "E"
+      ],
+      "login": "bravewhale119",
+      "email": "kek@massi.lincoln",
+      "password": "$2b$12$peg7myYczlLQBeAX/vp.TOtylp0YK3SGJVprMiz2hVBknOwAXl20S"
+    },
+    {
+      "id": "888a4909-133b-4cab-ba49-50291d7a01f9",
+      "firstName": "Gussie",
+      "lastName": "Fernandez",
+      "permissions": [
+        "W",
+        "R",
+        "-"
+      ],
+      "login": "innovativemole27",
+      "email": "vore@teb.католик",
+      "password": "$2b$12$eYXGmxV.scrUwud0/WXJm.gDygr3OdYEFePwt8TjnuYqc1RKGZemO"
+    },
+    {
+      "id": "ab449201-154f-4afe-96d8-50109b20e26e",
+      "firstName": "Myrtie",
+      "lastName": "Holmes",
+      "permissions": [
+        "W",
+        "R",
+        "E"
+      ],
+      "login": "gracefulkoala856",
+      "email": "biwni@pi.淡马锡",
+      "password": "$2b$12$e5pmle1lCLs2xD.dypdcdOk1KktWFTuzBT2NeLTHE6YDUDiXPC9AC"
+    },
+    {
+      "id": "a8c9add3-b0ea-460d-b15b-b73543b56bd2",
+      "firstName": "Mathilda",
+      "lastName": "Scott",
+      "permissions": [
+        "-",
+        "-",
+        "E"
+      ],
+      "login": "strongflamingo963",
+      "email": "koipe@homlin.li",
+      "password": "$2b$12$fmh6GI.kM3h.bnl9K9zoreg16MPVWCSrhjkoBH5z.EpvVJvxOSFmO"
+    },
+    {
+      "id": "e406dd6f-4765-4633-b65e-3f6678ef9b28",
+      "firstName": "Jim",
+      "lastName": "Goodman",
+      "permissions": [
+        "W",
+        "-",
+        "E"
+      ],
+      "login": "endearingbear556",
+      "email": "doki@rup.barclaycard",
+      "password": "$2b$12$a1Yqb/lV62c8RODxUUsfwuZ4V03giQ1yz6fliII3fCPZTlaMuRC9W"
+    },
+    {
+      "id": "31174066-b9eb-454a-a859-a07d6d6ef25a",
+      "firstName": "Mabelle",
+      "lastName": "Sandoval",
+      "permissions": [
+        "-",
+        "R",
+        "-"
+      ],
+      "login": "enthusiasticwolf924",
+      "email": "gancih@as.int",
+      "password": "$2b$12$0f7C5XNAIOCXfar.4TWrMe7wuebfca9NJteOTH8x0tACz3.a3ARgW"
+    },
+    {
+      "id": "0d846c5f-98a9-48e3-b1ea-668b55b0040e",
+      "firstName": "Isabella",
+      "lastName": "Joseph",
+      "permissions": [
+        "-",
+        "R",
+        "E"
+      ],
+      "login": "optimisticmole873",
+      "email": "cerunujed@turatwo.ly",
+      "password": "$2b$12$VYJnNQR8mamYajlbjCBhK.gjbal0gc9RRA.eG63V2w2ewe6eJNmAu"
+    },
+    {
+      "id": "cbfa8baf-2627-4a74-89ba-895a398d9e10",
+      "firstName": "Inez",
+      "lastName": "Riley",
+      "permissions": [
+        "-",
+        "R",
+        "E"
+      ],
+      "login": "caringchameleon149",
+      "email": "ogleog@befhu.gmx",
+      "password": "$2b$12$CzH1/hpJYSYFeeAdQuXj3.TYkSlxzl5.fFTuBD6U03K/ZTPaSbHO."
+    },
+    {
+      "id": "831e8ae3-a542-489f-bf75-f08cd2bb2fbc",
+      "firstName": "Tommy",
+      "lastName": "Silva",
+      "permissions": [
+        "-",
+        "-",
+        "E"
+      ],
+      "login": "determinedtiger932",
+      "email": "melah@pec.淡马锡",
+      "password": "$2b$12$qNAM6b7Aq1U3rfoRJh9fw.Ad3JJ3AntUi5VKPoCe6nXiqPCTaf2ZO"
     }
   ]
 }

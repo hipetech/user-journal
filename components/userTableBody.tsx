@@ -4,15 +4,13 @@ import TableBody from "@mui/material/TableBody";
 import React, { useMemo } from "react";
 
 import { columns } from "@/components/userTableHeader";
+import { removeUser } from "@/helpers/removeUser";
 import { User } from "@/types/user";
 
 function renderRows(users: User[]) {
-  return users.map((user, index) => {
+  return users.map((user) => {
     return (
       <TableRow hover={true} key={user.id}>
-        <TableCell>
-          {index + 1}
-        </TableCell>
         {
           columns.map((column) => {
             return (
@@ -25,7 +23,7 @@ function renderRows(users: User[]) {
           })
         }
         <TableCell>
-          <IconButton size={"small"} onClick={() => console.log("hello world")}>
+          <IconButton size={"small"} onClick={() => removeUser(user.id)}>
             <DeleteOutlineIcon color={"disabled"}/>
           </IconButton>
         </TableCell>

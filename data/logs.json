@@ -1493,6 +1493,528 @@
       },
       "date": "2023-11-12T00:09:07.588Z",
       "type": "Log out"
+    },
+    {
+      "id": "181eac41-1a27-496d-b55f-e613dadd14a9",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-12T08:44:10.833Z",
+      "type": "Log in"
+    },
+    {
+      "id": "d5b22efd-f32b-444f-bfca-7311a1764eb9",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-12T08:44:25.380Z",
+      "type": "User add"
+    },
+    {
+      "id": "c0caf937-3015-4cdc-b817-39c5a627a1eb",
+      "user": {
+        "id": "8b3515e7-e5dd-480c-bbef-a19570e90e7e",
+        "firstName": "Billy",
+        "lastName": "Horton",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "fiercetortoise39",
+        "email": "gis@iw.wiki",
+        "password": "$2b$12$he1Qir3MF.h/5Y7gelKIFerzVe0TT3WVmKQNteJqCwTF/LqvZNjPm"
+      },
+      "date": "2023-11-12T08:51:25.284Z",
+      "type": "Log in"
+    },
+    {
+      "id": "52fcc8e9-54b2-407f-b045-4f38af57392e",
+      "user": {
+        "id": "8b3515e7-e5dd-480c-bbef-a19570e90e7e",
+        "firstName": "Billy",
+        "lastName": "Horton",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "fiercetortoise39",
+        "email": "gis@iw.wiki",
+        "password": "$2b$12$he1Qir3MF.h/5Y7gelKIFerzVe0TT3WVmKQNteJqCwTF/LqvZNjPm"
+      },
+      "date": "2023-11-12T08:51:53.957Z",
+      "type": "User add"
+    },
+    {
+      "id": "de618f50-21b9-421a-af2f-e4e92300b2e0",
+      "user": {
+        "id": "8b3515e7-e5dd-480c-bbef-a19570e90e7e",
+        "firstName": "Billy",
+        "lastName": "Horton",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "fiercetortoise39",
+        "email": "gis@iw.wiki",
+        "password": "$2b$12$he1Qir3MF.h/5Y7gelKIFerzVe0TT3WVmKQNteJqCwTF/LqvZNjPm"
+      },
+      "date": "2023-11-12T08:51:55.642Z",
+      "type": "User add"
+    },
+    {
+      "id": "871df6a1-ae13-4ee5-97d8-e8388e02eb40",
+      "user": {
+        "id": "8b3515e7-e5dd-480c-bbef-a19570e90e7e",
+        "firstName": "Billy",
+        "lastName": "Horton",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "fiercetortoise39",
+        "email": "gis@iw.wiki",
+        "password": "$2b$12$he1Qir3MF.h/5Y7gelKIFerzVe0TT3WVmKQNteJqCwTF/LqvZNjPm"
+      },
+      "date": "2023-11-12T08:51:57.084Z",
+      "type": "User add"
+    },
+    {
+      "id": "7f06ec3c-e464-458d-94dd-57caad60ff57",
+      "user": {
+        "id": "8b3515e7-e5dd-480c-bbef-a19570e90e7e",
+        "firstName": "Billy",
+        "lastName": "Horton",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "fiercetortoise39",
+        "email": "gis@iw.wiki",
+        "password": "$2b$12$he1Qir3MF.h/5Y7gelKIFerzVe0TT3WVmKQNteJqCwTF/LqvZNjPm"
+      },
+      "date": "2023-11-12T08:51:58.337Z",
+      "type": "User add"
+    },
+    {
+      "id": "b8a48b23-24d9-4427-8ec4-cb4c3a401a3e",
+      "user": {
+        "id": "8b3515e7-e5dd-480c-bbef-a19570e90e7e",
+        "firstName": "Billy",
+        "lastName": "Horton",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "fiercetortoise39",
+        "email": "gis@iw.wiki",
+        "password": "$2b$12$he1Qir3MF.h/5Y7gelKIFerzVe0TT3WVmKQNteJqCwTF/LqvZNjPm"
+      },
+      "date": "2023-11-12T08:51:59.620Z",
+      "type": "User add"
+    },
+    {
+      "id": "edeb63b9-e0d5-4ec2-b88a-866b6eef6844",
+      "user": {
+        "id": "8b3515e7-e5dd-480c-bbef-a19570e90e7e",
+        "firstName": "Billy",
+        "lastName": "Horton",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "fiercetortoise39",
+        "email": "gis@iw.wiki",
+        "password": "$2b$12$he1Qir3MF.h/5Y7gelKIFerzVe0TT3WVmKQNteJqCwTF/LqvZNjPm"
+      },
+      "date": "2023-11-12T08:52:00.801Z",
+      "type": "User add"
+    },
+    {
+      "id": "1d46b836-d9da-4dce-aac9-9d8f7e4b6aa5",
+      "user": {
+        "id": "8b3515e7-e5dd-480c-bbef-a19570e90e7e",
+        "firstName": "Billy",
+        "lastName": "Horton",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "fiercetortoise39",
+        "email": "gis@iw.wiki",
+        "password": "$2b$12$he1Qir3MF.h/5Y7gelKIFerzVe0TT3WVmKQNteJqCwTF/LqvZNjPm"
+      },
+      "date": "2023-11-12T08:52:02.176Z",
+      "type": "User add"
+    },
+    {
+      "id": "a9bc676b-8c66-452e-8d91-9cd2bd46b86e",
+      "user": {
+        "id": "8b3515e7-e5dd-480c-bbef-a19570e90e7e",
+        "firstName": "Billy",
+        "lastName": "Horton",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "fiercetortoise39",
+        "email": "gis@iw.wiki",
+        "password": "$2b$12$he1Qir3MF.h/5Y7gelKIFerzVe0TT3WVmKQNteJqCwTF/LqvZNjPm"
+      },
+      "date": "2023-11-12T08:52:03.497Z",
+      "type": "User add"
+    },
+    {
+      "id": "453f1855-cc56-4f99-8011-f089b963b587",
+      "user": {
+        "id": "8b3515e7-e5dd-480c-bbef-a19570e90e7e",
+        "firstName": "Billy",
+        "lastName": "Horton",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "fiercetortoise39",
+        "email": "gis@iw.wiki",
+        "password": "$2b$12$he1Qir3MF.h/5Y7gelKIFerzVe0TT3WVmKQNteJqCwTF/LqvZNjPm"
+      },
+      "date": "2023-11-12T08:52:05.634Z",
+      "type": "User add"
+    },
+    {
+      "id": "462e2448-1d59-4db9-8fc8-658fca90d7f0",
+      "user": {
+        "id": "8b3515e7-e5dd-480c-bbef-a19570e90e7e",
+        "firstName": "Billy",
+        "lastName": "Horton",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "fiercetortoise39",
+        "email": "gis@iw.wiki",
+        "password": "$2b$12$he1Qir3MF.h/5Y7gelKIFerzVe0TT3WVmKQNteJqCwTF/LqvZNjPm"
+      },
+      "date": "2023-11-12T08:52:06.920Z",
+      "type": "User add"
+    },
+    {
+      "id": "347c2ddb-11c0-4932-ad77-7456eaaaaa13",
+      "user": {
+        "id": "8b3515e7-e5dd-480c-bbef-a19570e90e7e",
+        "firstName": "Billy",
+        "lastName": "Horton",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "fiercetortoise39",
+        "email": "gis@iw.wiki",
+        "password": "$2b$12$he1Qir3MF.h/5Y7gelKIFerzVe0TT3WVmKQNteJqCwTF/LqvZNjPm"
+      },
+      "date": "2023-11-12T08:54:12.538Z",
+      "type": "Log in"
+    },
+    {
+      "id": "7476e3ff-1090-4d4c-8e4a-93009d84a845",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-12T10:23:57.062Z",
+      "type": "Log in"
+    },
+    {
+      "id": "af9e1808-4ec4-41c8-84d7-3deec750b116",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-12T10:24:01.247Z",
+      "type": "User remove"
+    },
+    {
+      "id": "efc702a0-c399-40c8-b46d-574c6d7d7ecf",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-12T10:24:28.000Z",
+      "type": "Log in"
+    },
+    {
+      "id": "daa2abd2-d861-47e5-8bbd-6d827381c25e",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-12T10:24:31.158Z",
+      "type": "User remove"
+    },
+    {
+      "id": "ea5b06f6-109d-49d1-bb18-ace22c3372d9",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-12T10:24:36.874Z",
+      "type": "User remove"
+    },
+    {
+      "id": "d51e0631-5511-45d7-a924-c1d7488afbfa",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-12T10:24:44.196Z",
+      "type": "User remove"
+    },
+    {
+      "id": "dae04d78-9751-42f1-a833-d322b658146f",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-12T10:29:13.206Z",
+      "type": "Log in"
+    },
+    {
+      "id": "c1ff25aa-70b1-4ad4-aab9-b3c5062a7823",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-12T10:30:16.103Z",
+      "type": "Log in"
+    },
+    {
+      "id": "7d8e357b-eb3b-4f43-a42c-8c0983f5a524",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-12T10:33:27.862Z",
+      "type": "Log in"
+    },
+    {
+      "id": "b73baff6-83aa-47cc-971f-4d29902e1f25",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-12T10:37:42.519Z",
+      "type": "User add"
+    },
+    {
+      "id": "f8678978-d177-447b-b2e0-3ec8375cba52",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-12T10:37:53.379Z",
+      "type": "User add"
+    },
+    {
+      "id": "1cf30c2f-41f2-415e-97be-86f9aa92bac0",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-12T10:38:31.092Z",
+      "type": "User add"
+    },
+    {
+      "id": "37ede2a0-3a77-4724-afa4-99260746b236",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-12T10:38:35.110Z",
+      "type": "User add"
+    },
+    {
+      "id": "9fed38ff-dbf3-4edd-a905-6bf10801f342",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-12T10:38:43.202Z",
+      "type": "User add"
+    },
+    {
+      "id": "4997e4b8-edb4-4ea1-a4d6-8f140c1e74c0",
+      "user": {
+        "id": "admin",
+        "firstName": "admin",
+        "lastName": "admin",
+        "permissions": [
+          "W",
+          "R",
+          "E"
+        ],
+        "login": "admin",
+        "email": "admin@mail.com",
+        "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
+      },
+      "date": "2023-11-12T10:39:57.298Z",
+      "type": "User remove"
     }
   ]
 }
