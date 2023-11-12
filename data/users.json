@@ -1,7 +1,7 @@
 {
   "users": [
     {
-      "id": "admin",
+      "id": "d1f4c2c6-c8d7-4186-846b-f154d4c8621f",
       "firstName": "admin",
       "lastName": "admin",
       "permissions": [
@@ -11,20 +11,7 @@
       ],
       "login": "admin",
       "email": "admin@mail.com",
-      "password": "$2a$12$N/UOCp87CMse6S3eVnY6peFhjILQ/uWNin0QLqynBeQlVT2BLB50G"
-    },
-    {
-      "id": "8b3515e7-e5dd-480c-bbef-a19570e90e7e",
-      "firstName": "Billy",
-      "lastName": "Horton",
-      "permissions": [
-        "W",
-        "R",
-        "E"
-      ],
-      "login": "fiercetortoise39",
-      "email": "gis@iw.wiki",
-      "password": "$2b$12$he1Qir3MF.h/5Y7gelKIFerzVe0TT3WVmKQNteJqCwTF/LqvZNjPm"
+      "password": "$2b$12$Fs.6hPEgggU.7TH6aqb6qO4OUpO8x7TwCEfNu0P36lpdHC3bhbG0S"
     },
     {
       "id": "a4c21611-2665-4bb6-a6a6-4ece2dee1eee",
@@ -77,19 +64,6 @@
       "login": "gracefulkoala856",
       "email": "biwni@pi.淡马锡",
       "password": "$2b$12$e5pmle1lCLs2xD.dypdcdOk1KktWFTuzBT2NeLTHE6YDUDiXPC9AC"
-    },
-    {
-      "id": "a8c9add3-b0ea-460d-b15b-b73543b56bd2",
-      "firstName": "Mathilda",
-      "lastName": "Scott",
-      "permissions": [
-        "-",
-        "-",
-        "E"
-      ],
-      "login": "strongflamingo963",
-      "email": "koipe@homlin.li",
-      "password": "$2b$12$fmh6GI.kM3h.bnl9K9zoreg16MPVWCSrhjkoBH5z.EpvVJvxOSFmO"
     },
     {
       "id": "e406dd6f-4765-4633-b65e-3f6678ef9b28",
@@ -155,6 +129,45 @@
       "login": "determinedtiger932",
       "email": "melah@pec.淡马锡",
       "password": "$2b$12$qNAM6b7Aq1U3rfoRJh9fw.Ad3JJ3AntUi5VKPoCe6nXiqPCTaf2ZO"
+    },
+    {
+      "id": "bb127702-a3d7-44c4-96be-4a07e3652efe",
+      "firstName": "Bertha",
+      "lastName": "Lee",
+      "permissions": [
+        "-",
+        "R",
+        "-"
+      ],
+      "login": "flvsy",
+      "email": "ha@sowow.run",
+      "password": "$2b$12$pZHH054ihU1kuP7OyXqFu.tbfKmSzpmyFJJ05fLAPD2R.oRN4loUu"
+    },
+    {
+      "id": "0931bd86-48bf-4614-beb9-c0cfd4f301e2",
+      "firstName": "Bertha",
+      "lastName": "Gibbs",
+      "permissions": [
+        "W",
+        "-",
+        "E"
+      ],
+      "login": "modestorangutan531",
+      "email": "ijiki@kan.tci",
+      "password": "$2b$12$..E8Sf60hUOPA50xIp2GzuDcMXLRJJbhBTb0mWd6OfDwHiOkHdaMW"
+    },
+    {
+      "id": "3e812eb7-ec72-4ff0-83c1-23fab0700363",
+      "firstName": "Lucy",
+      "lastName": "Jordan",
+      "permissions": [
+        "-",
+        "R",
+        "-"
+      ],
+      "login": "cheerfulmanatee335",
+      "email": "caz@uremic.rip",
+      "password": "$2b$12$HdcZOTeMRsQoQv1.M3LcpeD2EmkEJPjd/.WFOKjFfmt1a6.BJtE/C"
     }
   ]
 }

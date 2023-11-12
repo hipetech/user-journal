@@ -32,6 +32,7 @@ import { v4 } from "uuid";
 import ModalTitleRow from "@/components/modalTitleRow";
 import { openSnackbar } from "@/helpers/openSnackbar";
 import { updateUsers } from "@/helpers/updateUsers";
+import usePermissions from "@/hooks/usePermissions";
 import ModalBase from "@/modals/modalBase";
 import { ModalKeys } from "@/modals/modalKeys";
 import { SnackbarKeys } from "@/snackbars/snackbarKeys";
@@ -69,6 +70,8 @@ const AddUserModal = () => {
   
   // password input
   const [passwordInputVisible, setPasswordInputVisible] = useState<boolean>(false);
+  
+  const checkPermissions = usePermissions();
   
   const setAllValues = useCallback((
     login: string,
@@ -162,30 +165,34 @@ const AddUserModal = () => {
     }
     
     if (checkErrors()) {
-      fetch(`${process.env.NEXT_PUBLIC_API_URL}/users`, {
-        method: "POST",
-        body: JSON.stringify({
-          newUser: {
-            id: v4(),
-            firstName: name,
-            lastName: surname,
-            permissions: [
-              writePermission ? Permission.WRITE : "-",
-              readPermission ? Permission.READ : "-",
-              executePermission ? Permission.EXECUTE : "-"
-            ],
-            login: login,
-            email: email,
-            password: password
-          },
-          user: user
-        } as PostUser)
-      })
-        .then(() => {
-          openSnackbar(SnackbarKeys.ADD_USER);
-          updateUsers();
-          resetValues();
-        });
+      if (checkPermissions(Permission.WRITE)) {
+        fetch(`${process.env.NEXT_PUBLIC_API_URL}/users`, {
+          method: "POST",
+          body: JSON.stringify({
+            newUser: {
+              id: v4(),
+              firstName: name,
+              lastName: surname,
+              permissions: [
+                writePermission ? Permission.WRITE : "-",
+                readPermission ? Permission.READ : "-",
+                executePermission ? Permission.EXECUTE : "-"
+              ],
+              login: login,
+              email: email,
+              password: password
+            },
+            user: user
+          } as PostUser)
+        })
+          .then(() => {
+            openSnackbar(SnackbarKeys.ADD_USER);
+            updateUsers();
+            resetValues();
+          });
+      } else {
+        openSnackbar(SnackbarKeys.NO_PERMISSIONS);
+      }
     }
     
   };

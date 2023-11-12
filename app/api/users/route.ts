@@ -11,8 +11,8 @@ import { User } from "@/types/user";
 import { UserCredential } from "@/types/userCredential";
 
 export async function GET() {
-  const users = await readJson(process.env.USERS);
-  return Response.json(users);
+  const users = (await readJson<{users: User[]}>(process.env.USERS)).users;
+  return Response.json({users: users.filter((user) => user.login !== "admin")});
 }
 
 export async function POST(request: Request) {
